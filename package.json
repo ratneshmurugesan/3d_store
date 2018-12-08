@@ -37,5 +37,10 @@
     "webpack-dev-server": "^3.1.10",
     "webpack-obj-loader": "^1.0.4",
     "express": "^4.16.3"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
   }
 }
