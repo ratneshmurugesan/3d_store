@@ -35,6 +35,7 @@
     "webpack": "^4.25.1",
     "webpack-cli": "^3.1.2",
     "webpack-dev-server": "^3.1.10",
-    "webpack-obj-loader": "^1.0.4"
+    "webpack-obj-loader": "^1.0.4",
+    "express": "^4.16.3"
   }
 }
