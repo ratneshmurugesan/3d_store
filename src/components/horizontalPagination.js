@@ -10,17 +10,17 @@ class Feed extends React.Component {
     super(props);
 
     this.addPagination = this.addPagination.bind(this);
-    this.addModels = this.addModels.bind(this);
+    //this.addModels = this.addModels.bind(this);
   }
 
   addPagination(e){
     store.dispatch(addPagination(1, e.target.parentElement.className.toString()));
   }
 
-  addModels(e){
-    const modelName = e.target.parentElement.id;
-    store.dispatch(addModels(modelName, 1, e.target.parentElement.id.toString()));
-  }
+  // addModels(e){
+  //   const modelName = e.target.parentElement.id;
+  //   store.dispatch(addModels(modelName, 1, e.target.parentElement.id.toString()));
+  // }
 
   render() {
 
@@ -45,7 +45,7 @@ class Feed extends React.Component {
                       })
                     }
                     {
-                      <button onClick={this.addModels} type="button" className="arrow-load-more">></button>
+                      // <button onClick={this.addModels} type="button" className="arrow-load-more">></button>
                     }
                   </div>
                 </section>
