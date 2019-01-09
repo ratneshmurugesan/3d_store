@@ -1,4 +1,4 @@
-# 3d_store
+# Model_store
 
 Technologies used:
 - React
